@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		F4B1103F2880372E008C129E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B1103E2880372E008C129E /* AppDelegate.swift */; };
 		F4B110412880372E008C129E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B110402880372E008C129E /* SceneDelegate.swift */; };
-		F4B110432880372E008C129E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B110422880372E008C129E /* ViewController.swift */; };
 		F4B110462880372E008C129E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B110442880372E008C129E /* Main.storyboard */; };
 		F4B1104828803730008C129E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B1104728803730008C129E /* Assets.xcassets */; };
 		F4B1104B28803730008C129E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B1104928803730008C129E /* LaunchScreen.storyboard */; };
+		F4B110532880375D008C129E /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B110522880375D008C129E /* scoreViewController.swift */; };
+		F4B11055288037A6008C129E /* orange juice 2.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4B11054288037A6008C129E /* orange juice 2.0.ttf */; };
+		F4B110572880593C008C129E /* calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B110562880593C008C129E /* calculate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4B1103B2880372E008C129E /* scoreBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scoreBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B1103E2880372E008C129E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4B110402880372E008C129E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4B110422880372E008C129E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4B110452880372E008C129E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4B1104728803730008C129E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B1104A28803730008C129E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B1104C28803730008C129E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B110522880375D008C129E /* scoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
+		F4B11054288037A6008C129E /* orange juice 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "orange juice 2.0.ttf"; sourceTree = "<group>"; };
+		F4B110562880593C008C129E /* calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		F4B1103D2880372E008C129E /* scoreBoard */ = {
 			isa = PBXGroup;
 			children = (
+				F4B11054288037A6008C129E /* orange juice 2.0.ttf */,
 				F4B1103E2880372E008C129E /* AppDelegate.swift */,
 				F4B110402880372E008C129E /* SceneDelegate.swift */,
-				F4B110422880372E008C129E /* ViewController.swift */,
 				F4B110442880372E008C129E /* Main.storyboard */,
+				F4B110522880375D008C129E /* scoreViewController.swift */,
+				F4B110562880593C008C129E /* calculate.swift */,
 				F4B1104728803730008C129E /* Assets.xcassets */,
 				F4B1104928803730008C129E /* LaunchScreen.storyboard */,
 				F4B1104C28803730008C129E /* Info.plist */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B11055288037A6008C129E /* orange juice 2.0.ttf in Resources */,
 				F4B1104B28803730008C129E /* LaunchScreen.storyboard in Resources */,
 				F4B1104828803730008C129E /* Assets.xcassets in Resources */,
 				F4B110462880372E008C129E /* Main.storyboard in Resources */,
@@ -138,9 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B110432880372E008C129E /* ViewController.swift in Sources */,
+				F4B110572880593C008C129E /* calculate.swift in Sources */,
 				F4B1103F2880372E008C129E /* AppDelegate.swift in Sources */,
 				F4B110412880372E008C129E /* SceneDelegate.swift in Sources */,
+				F4B110532880375D008C129E /* scoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
