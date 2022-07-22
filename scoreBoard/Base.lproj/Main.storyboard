@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o6c-wT-4ob">
-                                <rect key="frame" x="546" y="62" width="173" height="266"/>
+                                <rect key="frame" x="546" y="62" width="173" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q43-a8-XvQ">
@@ -54,11 +54,6 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CFH-Au-qcA">
-                                        <rect key="frame" x="73" y="219" width="27" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.9882352941176471" green="0.96862745098039216" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Winner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6j-en-Xxh">
                                         <rect key="frame" x="51" y="-11" width="70" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -69,7 +64,7 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="auq-Xo-Bc8">
-                                <rect key="frame" x="125" y="62" width="173" height="266"/>
+                                <rect key="frame" x="125" y="62" width="173" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBe-h8-mwn">
@@ -102,11 +97,6 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Be3-h3-Voq">
-                                        <rect key="frame" x="73" y="219" width="27" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.98823529409999999" green="0.96862745100000003" blue="0.72941176470000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Winner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PcW-nd-uZe">
                                         <rect key="frame" x="51" y="-11" width="70" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -150,6 +140,22 @@
                                     <action selector="changeSideBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hdr-bg-DzM"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="黃色角色" translatesAutoresizingMaskIntoConstraints="NO" id="pkA-ub-oNA">
+                                <rect key="frame" x="171" y="269" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="黃色角色" translatesAutoresizingMaskIntoConstraints="NO" id="JCv-gg-nQv">
+                                <rect key="frame" x="592" y="269" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="桌球" translatesAutoresizingMaskIntoConstraints="NO" id="veO-zz-5FS">
+                                <rect key="frame" x="-66" y="-43" width="309" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="桌球" translatesAutoresizingMaskIntoConstraints="NO" id="pjP-p6-myW">
+                                <rect key="frame" x="569" y="91" width="315" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -163,8 +169,8 @@
                         <outlet property="rightScore" destination="QFm-Fj-vbz" id="Lgg-eZ-dXv"/>
                         <outletCollection property="winnerLabel" destination="PcW-nd-uZe" collectionClass="NSMutableArray" id="53y-xQ-OiW"/>
                         <outletCollection property="winnerLabel" destination="e6j-en-Xxh" collectionClass="NSMutableArray" id="c27-30-3yf"/>
-                        <outletCollection property="showServe" destination="Be3-h3-Voq" collectionClass="NSMutableArray" id="tLr-x7-zJO"/>
-                        <outletCollection property="showServe" destination="CFH-Au-qcA" collectionClass="NSMutableArray" id="Ezi-bh-K1O"/>
+                        <outletCollection property="showServe" destination="pkA-ub-oNA" collectionClass="NSMutableArray" id="iFU-Dz-lLq"/>
+                        <outletCollection property="showServe" destination="JCv-gg-nQv" collectionClass="NSMutableArray" id="P1h-1T-wuM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -192,4 +198,8 @@
             <point key="canvasLocation" x="19.90521327014218" y="83.07692307692308"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="桌球" width="323" height="390"/>
+        <image name="黃色角色" width="151" height="164"/>
+    </resources>
 </document>

@@ -12,7 +12,8 @@ class scoreViewController: UIViewController {
     //winnerLabel collecion
     @IBOutlet var winnerLabel: [UILabel]!
     //發球 collecion
-    @IBOutlet var showServe: [UIView]!
+    @IBOutlet var showServe: [UIImageView]!
+
     var index = Int.random(in: 0...1)
     //左邊
     @IBOutlet weak var leftScore: UILabel!
